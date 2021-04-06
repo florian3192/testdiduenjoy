@@ -1,0 +1,15 @@
+<form {{action 'save' on="submit"}}>
+    <div class="mb-3">
+        <label for="task" class="form-label">What should I do?</label>
+        {{!-- <input type="text" class="form-control" id="task"> --}}
+        {{input
+        type="text"
+        id="task"
+        placeholder="What should I do?"
+        value=taskName
+        class="form-control"
+        action="createTask"}}
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create a new task</button>
+</form>

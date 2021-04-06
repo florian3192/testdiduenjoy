@@ -1,0 +1,5 @@
+<li class="list-group-item">
+    <input class="form-check-input me-1" type="checkbox" checked={{@task.checked}}  {{on "click" (fn this.check @task)}}>
+    {{@task.name}}
+    <button class="btn btn-secondary" {{on "click" (fn this.delete @task)}}>Delete</button>
+</li>
