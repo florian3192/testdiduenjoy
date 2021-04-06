@@ -1,0 +1,10 @@
+.layout {
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 24px;
+}
+
+.list-group-item button {
+    float: right;
+}
